@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Add a Student</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+    <h1>Add a Student</h1>
+    <form method="post">
+        <input type="text" name="student_name" placeholder="Student_name">
+        <br>
+        <input type="radio" name="student_year" value="year2">year2
+        <br>
+        <input type="radio" name="student_year" value="year1">year1
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

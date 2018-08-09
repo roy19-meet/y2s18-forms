@@ -31,5 +31,3 @@ class Student(Base):
 					self.name,
 					self.year,
 					self.finished_lab)
-
-
